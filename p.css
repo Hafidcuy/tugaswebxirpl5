@@ -1,0 +1,27 @@
+* {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: none;
+}
+body {
+    background-color: black;
+    background-image: url(https://www.petanikode.com/img/html/html.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 1000px;
+    background-position: 50%;
+    background-position-y: -50%;
+}
+header h1 {
+    text-align: center;
+    
+}
+nav .navbar {
+    text-align: center;
+    gap: 20px;
+}
+header {
+    background-color: rgb(85, 240, 204);
+    padding: 20px;
+    border-radius: 15px;
+}

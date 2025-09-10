@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Pelajaran Web</title>
+  <style>
+    /* ====== Reset & Font ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* ====== Header & Navbar ====== */
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      color: #1e3a8a;
+      margin-bottom: 15px;
+    }
+
+    .navbar {
+      background: #2563eb;
+      padding: 12px;
+      border-radius: 6px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+      color: #dbeafe;
+    }
+
+    /* ====== Daftar Tugas ====== */
+    .task-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .task-section h2 {
+      color: #2563eb;
+      margin-bottom: 15px;
+    }
+
+    ol {
+      display: inline-block;
+      text-align: left;
+      padding: 15px 25px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    ol li {
+      margin: 8px 0;
+    }
+
+    ol li a {
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 5px;
+    }
+
+    ol li a:hover {
+      color: #ffffff;
+      text-decoration-line: none;
+      background-color: #1e3a8a;
+      padding: 5px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    /* ====== Paragraf ====== */
+    .content {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: justify;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Belajar HTML #02: Tag, Elemen, dan Atribut</h1>
+    <nav>
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Daftar</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="task-section">
+    <h2>Tugas Pelajaran Web</h2>
+    <ol type="1">
+      <li><a href="list.html">List di HTML</a></li>
+      <li><a href="p.html">Text dan paragraf</a></li>
+      <li><a href="tabel.html">tabel</a></li>
+      <li><a href="list.html">List di html</a></li>
+      <li><a href="m.html">Multimedia</a></li>
+      <li><a href="link.html">Link di html</a></li>
+    </ol>
+  </section>
+
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fugiat voluptatum tempore quaerat ratione laudantium, alias similique sequi! Earum hic iure ratione debitis quod delectus minima reprehenderit velit tenetur quae!
+    </p>
+  </div>
+</body>
+</html>
